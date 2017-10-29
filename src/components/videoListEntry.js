@@ -1,10 +1,13 @@
 angular.module('video-player')
 .component('videoListEntry', {
   bindings: {
+    theindex: '<',
+    handleclick: '<',
     video: '<'
   },
   controller: function() {
     this.something = 'something';
+    // this.executeClick = this.handleclick($index);
     // this.video = window.exampleVideoData[0];
     // debugger;
   },

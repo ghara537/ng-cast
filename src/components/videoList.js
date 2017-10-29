@@ -2,6 +2,7 @@ angular.module('video-player')
 .component('videoList', {
   
   bindings: {
+    clickhandler: '<',
     videos: '<',
     yee: '<'
   },
